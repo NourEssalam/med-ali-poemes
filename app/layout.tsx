@@ -20,7 +20,8 @@ export const metadata: Metadata = {
     default: "Mohamed Ali Ben Ammar",
     template: "%s · Mohamed Ali Ben Ammar",
   },
-  description: "Poèmes entre deux rives, par Mohamed Ali Ben Ammar.",
+  description:
+    "Là où les sommets embrassent le jasmin, par Mohamed Ali Ben Ammar.",
 };
 export const viewport: Viewport = {
   themeColor: "#FAF6EF",
