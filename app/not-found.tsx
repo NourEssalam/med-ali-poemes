@@ -1,0 +1,2 @@
+import Link from 'next/link'
+export default function NotFound() { return <div className="site-container py-24 text-center"><p className="eyebrow">Page introuvable</p><h1 className="page-title">Cette page n&apos;existe pas</h1><p className="intro mx-auto">Le poème que vous cherchez n&apos;est pas encore disponible.</p><Link href="/poemes" className="button-primary mt-8 inline-block">Retour aux poèmes</Link></div> }
