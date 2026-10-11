@@ -1,1 +1,42 @@
-export function MountainJasmineIllustration() { return <svg className="h-auto w-full" viewBox="0 0 560 390" role="img" aria-label="Montagnes douces et branches de jasmin"><path d="M0 290 145 135l80 88 115-145 220 212H0Z" fill="#d6d5c9" opacity=".75"/><path d="m0 325 175-116 85 54 116-92 184 154H0Z" fill="#b9c4c0" opacity=".72"/><path d="M95 347c68-61 107-65 164-47 41 13 81-9 126-43 44-34 84-34 149-1" fill="none" stroke="#2f5d7c" strokeWidth="3" opacity=".7"/><path d="M110 366c32-30 57-62 67-105m-6 37c-25-13-43-13-62-7m76-11c29-23 53-34 75-34m-19 5c-11-21-14-39-11-57" fill="none" stroke="#b5654a" strokeWidth="2" opacity=".75"/><g fill="#faf6ef" stroke="#b5654a" strokeWidth="2"><circle cx="172" cy="260" r="8"/><circle cx="146" cy="275" r="8"/><circle cx="202" cy="249" r="8"/><circle cx="248" cy="235" r="8"/><circle cx="260" cy="277" r="8"/></g></svg> }
+export function MountainJasmineIllustration() {
+  return (
+    <svg
+      className="h-auto w-full"
+      viewBox="0 0 560 390"
+      role="img"
+      aria-label="Montagnes douces et branches de jasmin"
+    >
+      <path
+        d="M0 290 145 135l80 88 115-145 220 212H0Z"
+        fill="#d6d5c9"
+        opacity=".75"
+      />
+      <path
+        d="m0 325 175-116 85 54 116-92 184 154H0Z"
+        fill="#b9c4c0"
+        opacity=".72"
+      />
+      <path
+        d="M95 347c68-61 107-65 164-47 41 13 81-9 126-43 44-34 84-34 149-1"
+        fill="none"
+        stroke="#2f5d7c"
+        strokeWidth="3"
+        opacity=".7"
+      />
+      <path
+        d="M110 366c32-30 57-62 67-105m-6 37c-25-13-43-13-62-7m76-11c29-23 53-34 75-34m-19 5c-11-21-14-39-11-57"
+        fill="none"
+        stroke="#b5654a"
+        strokeWidth="2"
+        opacity=".75"
+      />
+      <g fill="#faf6ef" stroke="#b5654a" strokeWidth="2">
+        <circle cx="172" cy="260" r="8" />
+        <circle cx="146" cy="275" r="8" />
+        <circle cx="202" cy="249" r="8" />
+        <circle cx="248" cy="235" r="8" />
+        <circle cx="260" cy="277" r="8" />
+      </g>
+    </svg>
+  );
+}
