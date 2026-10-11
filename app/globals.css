@@ -30,6 +30,7 @@
     html {
         color-scheme: light;
         scroll-behavior: smooth;
+        scroll-padding-top: 6rem; /* room for the sticky header */
         -webkit-text-size-adjust: 100%;
     }
     body {
