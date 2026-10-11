@@ -18,7 +18,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-terracotta/25 bg-paper/90 backdrop-blur-md supports-[backdrop-filter]:bg-paper/80">
       <div className="site-container flex min-h-20 items-center justify-between md:min-h-24">
         <Link href="/" className="wordmark" onClick={() => setOpen(false)}>
-          Mohamed Ali Ben Ammar
+          Mohamed Ali Ben&nbsp;Ammar
         </Link>
         <button
           className="menu-button md:hidden"
